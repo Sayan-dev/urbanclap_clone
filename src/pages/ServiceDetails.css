@@ -1,0 +1,55 @@
+.description_head{
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(rgb(0, 0, 0),rgba(27, 27, 27, 0.925));
+    color:white;
+}
+.breadcrumb{
+    background-color:transparent;
+    color: grey;
+    font-size: 15px;
+
+}
+.description_bread a{
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    transition: 0.25s all ease;
+    
+}
+.description_bread a:hover{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    color: rgb(228, 228, 228);
+    
+}
+.jumbotron{
+    background-color: transparent;
+    font-size: 4em;
+}
+.jumbotron p{
+    font-size: medium;
+}
+@media(min-width:700px){
+   
+    .breadcrumb{
+
+        font-size: 15px;
+    
+    }
+    .jumbotron h1{
+        font-size: 2em;
+    }
+}
+@media(min-width:500px){
+    .description_head{
+        padding:5px;
+    }
+    .breadcrumb{
+
+        font-size: 12px;
+    
+    }
+    .jumbotron h1{
+        font-size: 1em;
+    }
+}

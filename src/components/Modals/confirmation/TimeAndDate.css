@@ -1,0 +1,19 @@
+.time{
+    box-shadow: 0 2px 5px grey;
+    padding:2px;
+    text-align: center;
+    box-sizing: border-box;
+    transition:0.5s all ease;
+    padding:10px;
+    border:1px solid white;
+
+}
+.time_active{
+    box-shadow: none;
+    border:1px solid black;
+}
+.time_cont{
+    overflow-y: scroll;
+    height:350px;
+}
+

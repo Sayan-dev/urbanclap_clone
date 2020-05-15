@@ -1,0 +1,18 @@
+.layout2{
+    background-color: rgb(255, 251, 244);
+}
+.layout2_head div{
+    width: 100%;
+    text-align: center;
+    border:1px solid black;
+}
+.layout2_head div a{
+    width:100%;
+
+
+}
+.layout2_head div:has(a:active){
+    color: honeydew;
+    background-color: grey;
+
+}

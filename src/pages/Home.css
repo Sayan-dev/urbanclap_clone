@@ -1,0 +1,7 @@
+.home_container{
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px rgb(170, 170, 170);
+    padding-top: 150px;
+    margin-bottom: 150px;
+    height:450px;
+}
